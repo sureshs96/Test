@@ -1,0 +1,8 @@
+Utilities\ExcelDataProvider.class
+Utilities\BrowserFactory.class
+Utilities\ConfigData.class
+Pages\BaseClass.class
+TestCases\Login.class
+Utilities\Helper.class
+Pages\LoginPage.class
+TestCases\WandLogin.class
