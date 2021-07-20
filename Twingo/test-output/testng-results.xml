@@ -11,27 +11,27 @@
       <![CDATA[Reports generated succssfully]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-07-18T19:33:24 IST" name="Suite" finished-at="2021-07-18T19:34:22 IST" duration-ms="57458">
+  <suite started-at="2021-07-20T11:55:06 IST" name="Suite" finished-at="2021-07-20T11:55:55 IST" duration-ms="48933">
     <groups>
     </groups>
-    <test started-at="2021-07-18T19:33:24 IST" name="Test" finished-at="2021-07-18T19:34:22 IST" duration-ms="57458">
+    <test started-at="2021-07-20T11:55:06 IST" name="Test" finished-at="2021-07-20T11:55:55 IST" duration-ms="48933">
       <class name="TestCases.WandLogin">
-        <test-method is-config="true" signature="SetUpSuite()[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-18T19:33:23 IST" name="SetUpSuite" finished-at="2021-07-18T19:33:24 IST" duration-ms="1512" status="PASS">
+        <test-method is-config="true" signature="SetUpSuite()[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-20T11:55:05 IST" name="SetUpSuite" finished-at="2021-07-20T11:55:06 IST" duration-ms="1126" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Test requirements are gathering and test is ready]]>
             </line>
           </reporter-output>
         </test-method> <!-- SetUpSuite -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-18T19:33:24 IST" name="SetUp" finished-at="2021-07-18T19:33:50 IST" duration-ms="25760" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-20T11:55:06 IST" name="SetUp" finished-at="2021-07-20T11:55:27 IST" duration-ms="20345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="StartApp()[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-18T19:33:50 IST" name="StartApp" finished-at="2021-07-18T19:34:05 IST" duration-ms="14381" status="PASS">
+        <test-method signature="StartApp()[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-20T11:55:27 IST" name="StartApp" finished-at="2021-07-20T11:55:43 IST" duration-ms="16779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StartApp -->
-        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-18T19:34:05 IST" name="teardownmethod" finished-at="2021-07-18T19:34:15 IST" duration-ms="10695" status="PASS">
+        <test-method is-config="true" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-20T11:55:43 IST" name="teardownmethod" finished-at="2021-07-20T11:55:54 IST" duration-ms="10367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- teardownmethod -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-18T19:34:15 IST" name="teardown" finished-at="2021-07-18T19:34:22 IST" duration-ms="6307" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.WandLogin@73e22a3d]" started-at="2021-07-20T11:55:54 IST" name="teardown" finished-at="2021-07-20T11:55:55 IST" duration-ms="1333" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

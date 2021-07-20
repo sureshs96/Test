@@ -11,7 +11,7 @@ public class WandLogin extends BaseClass {
 	
 	@Test
 	public void StartApp() throws InterruptedException {
-		logger = report.createTest("login into fb application");
+		logger = report.createTest("login into wand application");
 		LoginPage loginpage = PageFactory.initElements(driver, LoginPage.class);
 		logger.info("Starting Application");
 		loginpage.login(TestData.getStringData("Sheet1", 1, 0), TestData.getStringData("Sheet1", 1, 1));

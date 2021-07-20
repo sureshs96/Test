@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.745 s - in TestSuite
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 2.418 s <<< FAILURE! - in TestSuite
+TestCases.WandLogin.SetUp  Time elapsed: 2.059 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeClass on method SetUp but has not been marked @Optional or defined
+in C:\Users\SURESH\git\Test\Twingo\XMLFiles\testng.xml
+

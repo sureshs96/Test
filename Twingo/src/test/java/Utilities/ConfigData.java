@@ -8,11 +8,11 @@ import java.util.Properties;
 public class ConfigData {
 	Properties prop;
 	public ConfigData() {
-	
-		File src = new File("C:\\Users\\SURESH\\eclipse-workspace\\Twingo\\Config\\Config.properties");
-		FileInputStream fis;
+		System.out.println("config file not found");
+		File src = new File("./Config/Config.properties");
+		
 		try {
-			fis = new FileInputStream(src);
+			FileInputStream fis = new FileInputStream(src);
 			prop = new Properties();
 			prop.load(fis);
 		} catch (Exception e) {

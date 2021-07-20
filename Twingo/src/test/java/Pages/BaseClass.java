@@ -43,6 +43,7 @@ public class BaseClass {
 	@BeforeClass
 	public void SetUp() {
 		driver = BrowserFactory.startApplication(driver, config.getBrowser() , config.getUrl());
+//		driver = BrowserFactory.startApplication(driver, "edge", "http://wand.gene.com/");
 	}
 	
 	@AfterClass
